@@ -6,15 +6,16 @@ import java.util.Set;
 
 public class FindSubsets {
     public static <T> boolean areSubsets(Set<T> set1, Set<T> set2){
-        if(set1.size() != set2.size()){
-            return false;
-        }
 
         Set<T> subset = (set1.size() > set2.size()) ? set2 : set1;
         Set<T> powerSet = (set1.size() <= set2.size()) ? set2 : set1;
 
+        if(subset.isEmpty()){
+            return true;
+        }
+
         for(T element : subset){
-            if(!powerSet.contains(element)){
+            if(!(powerSet.contains(element))){
                 return false;
             }
         }
