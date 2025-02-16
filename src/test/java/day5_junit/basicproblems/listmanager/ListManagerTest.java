@@ -1,6 +1,8 @@
-package day5_junit.listmanager;
+package day5_junit.basicproblems.listmanager;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import day5_junit.basicproblems.listmanager.ListManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;

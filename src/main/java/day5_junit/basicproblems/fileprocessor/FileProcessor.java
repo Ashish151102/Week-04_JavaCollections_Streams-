@@ -1,4 +1,4 @@
-package day5_junit.fileprocessor;
+package day5_junit.basicproblems.fileprocessor;
 
 import java.io.*;
 

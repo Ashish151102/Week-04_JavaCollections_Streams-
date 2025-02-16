@@ -1,4 +1,4 @@
-package day5_junit.exceptionhandler;
+package day5_junit.basicproblems.exceptionhandler;
 
 public class ExceptionHandler {
     public static int divide(int a, int b) {

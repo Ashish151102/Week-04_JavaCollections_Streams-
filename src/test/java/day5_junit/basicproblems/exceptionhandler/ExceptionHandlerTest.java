@@ -1,6 +1,8 @@
-package day5_junit.exceptionhandler;
+package day5_junit.basicproblems.exceptionhandler;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import day5_junit.basicproblems.exceptionhandler.ExceptionHandler;
 import org.junit.jupiter.api.Test;
 
 class ExceptionHandlerTest {

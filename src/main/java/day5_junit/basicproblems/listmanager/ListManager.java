@@ -1,4 +1,4 @@
-package day5_junit.listmanager;
+package day5_junit.basicproblems.listmanager;
 
 
 import java.util.List;

@@ -1,6 +1,8 @@
-package day5_junit.fileprocessor;
+package day5_junit.basicproblems.fileprocessor;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import day5_junit.basicproblems.fileprocessor.FileProcessor;
 import org.junit.jupiter.api.*;
 import java.io.*;
 
