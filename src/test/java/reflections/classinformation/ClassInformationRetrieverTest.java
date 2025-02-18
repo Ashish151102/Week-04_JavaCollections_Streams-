@@ -1,4 +1,5 @@
-package reflections.classinformation;
+package reflections.classinformation; // Fixed package name
+
 import org.junit.jupiter.api.Test;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -9,10 +10,10 @@ class ClassInformationRetrieverTest {
 
     @Test
     void testClassInformationRetrieval() throws Exception {
-        Class<?> clazz = Class.forName("reflecetions.classinformation.SampleClass");
+        Class<?> clazz = Class.forName("reflections.classinformation.SampleClass"); // Fixed package name
 
         // Check class name
-        assertEquals("reflecetions.classinformation.SampleClass", clazz.getName());
+        assertEquals("reflections.classinformation.SampleClass", clazz.getName()); // Fixed expected value
 
         // Check methods
         Method[] methods = clazz.getDeclaredMethods();
@@ -39,4 +40,3 @@ class SampleClass {
 
     public void sampleMethod() {}
 }
-
